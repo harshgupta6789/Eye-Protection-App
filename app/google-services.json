@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "192454357783",
+    "firebase_url": "https://secretpicturetaker.firebaseio.com",
+    "project_id": "secretpicturetaker",
+    "storage_bucket": "secretpicturetaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192454357783:android:7be7e4f53f8aa1b2ab7d52",
+        "android_client_info": {
+          "package_name": "com.hzitoun.camera2secretpicturetaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192454357783-vg3c23v4c8cdtuho3gbqd1icl39evd6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hzitoun.camera2secretpicturetaker",
+            "certificate_hash": "0e87b4dd6a77b3551179b18d301794b742813b28"
+          }
+        },
+        {
+          "client_id": "192454357783-ssi54a6kdkv2e13v9tcmk43bheh0usva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHo34WMxFSqO6KKb0jBnshVKeKfVKdEG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192454357783-ssi54a6kdkv2e13v9tcmk43bheh0usva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

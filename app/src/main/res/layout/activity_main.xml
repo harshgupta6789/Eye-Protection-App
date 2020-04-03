@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="com.hzitoun.camera2SecretPictureTaker.activities.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_shadow"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/backIV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/back_picture" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_shadow"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/frontIV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/front_picture" />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/startCaptureBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_shadow"
+            android:text="      Start      "
+            android:visibility="gone" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/abcd"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:background="@drawable/black"
+            android:src="@drawable/giphy_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="120dp"
+            android:fontFamily="cursive"
+            android:text="    Keep Calm and Protect Your Eyes"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"></TextView>
+
+    </LinearLayout>
+</ScrollView>
