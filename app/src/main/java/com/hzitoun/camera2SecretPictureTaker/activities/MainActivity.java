@@ -1,5 +1,5 @@
 package com.hzitoun.camera2SecretPictureTaker.activities;
-
+//app
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.AlarmManager;
