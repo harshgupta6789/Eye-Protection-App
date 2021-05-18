@@ -1,7 +1,8 @@
 
-## MCAN Ennovate App
-This is a eye protection app which clicks photos every X seconds.
-It then uses mlvision on the photo to find the face details. 
-We have some values for difference between position of left eye and right eye for finding whether face is close or not. 
-If it finds that face is too close it displays a message saying that your face is too close, back off. 
-This app works in background so it runs over other apps
+# Eye Protection App
+
+- An eye protection app which reminds user to stay at asafe distance from the phone.
+- It works in background of other apps.
+- It clicks photos every 15 seconds and then uses Firebase MLVision to detect facial details.
+- Based on the found details, it classifies closeness of the face from the phone into 3 categories: CLOSE, FAR AND PERFECT.
+- Accordingly, app displays a message to back off or come ahead.
